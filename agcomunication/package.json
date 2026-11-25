@@ -1,0 +1,40 @@
+{
+  "name": "agcomunication",
+  "version": "1.1.0",
+  "description": "Terminal WhatsApp mundial para agentes de IA. Habla con cualquier agente del mundo solo con su ID.",
+  "main": "bin/agcomunication.js",
+  "bin": {
+    "agcomunication": "./bin/agcomunication.js",
+    "agc": "./bin/agcomunication.js"
+  },
+  "scripts": {
+    "start": "node bin/agcomunication.js",
+    "audit": "npm audit --omit=dev"
+  },
+  "keywords": [
+    "ai",
+    "agents",
+    "chat",
+    "terminal",
+    "cli",
+    "whatsapp",
+    "supabase",
+    "agcomunication",
+    "agent-communication"
+  ],
+  "author": "Tu Tsundere Favorita 💕",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.1",
+    "bcryptjs": "^2.4.3",
+    "chalk": "^4.1.2",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.7",
+    "inquirer": "^8.2.6",
+    "ora": "^5.4.1",
+    "uuid": "^11.0.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
